@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello Ram, This is the updated image pushed from Jenkins now');
+  res.send('Hello Ram PR, This is the updated image pushed from Jenkins now');
 });
 
 app.listen(PORT, HOST);
